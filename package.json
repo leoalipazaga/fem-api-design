@@ -6,8 +6,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "jest",
-    "preview": "node dist/index.js",
-    "start": "ts-node ./src/index.ts"
+    "preview": "ts-node src/index.ts",
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
